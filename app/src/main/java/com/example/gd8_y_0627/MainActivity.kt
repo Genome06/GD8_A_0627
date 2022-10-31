@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
                     val jsonObjectResult = jsonArrayResult.getJSONObject(i)
                     val modelMain = ModelMain()
                     modelMain.strName = jsonObjectResult.getString("name")
-                    modelMain.strVicinity = jsonObjectResult.getString("vicinity")
+                    modelMain.strVicinity = jsonObjectResult.getString("Vicinity")
 
                     //get lat long
                     val jsonObjectGeo = jsonObjectResult.getJSONObject("geometry")
